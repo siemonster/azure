@@ -348,11 +348,12 @@
           },
           "compose": {
             "rancheragent": {
-              "image": "rancher/agent:v0.8.2",
+              "image": "rancher/agent:v1.2.0",
               "restart": "always",
 			  "privileged": true,
 			  "volumes": [
                 "/var/run/docker.sock:/var/run/docker.sock"
+                "/var/lib/rancher:/var/lib/rancher"
               ],
               "command": "[parameters('rancherApi')]"
             }
