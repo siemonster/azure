@@ -17,7 +17,7 @@
     "rancherApi": {
       "type": "string",
       "metadata": {
-        "description": "The api link to your RancherHost. Example : http://myrancherhost.kvaes.be:8080/v1/scripts/AA12A123A1A1234A12A1:1234567890000:aAaaaaA1AaAaAlaAAaaaaAAAaaA"
+        "description": "The api link to your RancherHost. Example : http://makara.southcentralus.cloudapp.azure.com:8080/v1/scripts/9A58960274823734FFAC:1483142400000:aAaaaaA1AaAaAlaAAaaaaAAAaaA"
       }
     },
 	"rancherNodeName": {
