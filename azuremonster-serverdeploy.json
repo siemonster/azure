@@ -5,7 +5,8 @@
     "adminUsername": {
       "type": "string",
       "metadata": {
-        "description": "Username for the Virtual Machine."
+        "description": "Username for the Virtual Machine.",
+	"defaultValue" : "siemonster"
       }
     },
     "adminPassword": {
@@ -17,7 +18,8 @@
 	"rancherNodeName": {
       "type": "string",
       "metadata": {
-        "description": "The prefix you want to use as hostname"
+        "description": "The prefix you want to use as hostname",
+	"defaultValue" : "makara"
       }
     },
 	"rancherVmSize": {
@@ -95,7 +97,7 @@
     "networkSecurityGroupName": "[parameters('rancherNodeName')]",
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
-    "ubuntuOSVersion": "16.04.1-LTS",
+    "ubuntuOSVersion": "16.10",
     "OSDiskName": "rancherosdisk",
     "nicName": "ranchernic",
     "virtualNetworkName": "[parameters('rancherNodeName')]",
